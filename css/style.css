@@ -4,10 +4,13 @@
   font-family: "Poppins", sans-serif;
 }
 .header {
-  min-height: 100vh;
+  min-height: 65vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.589)),
-    url(dum.jpg);
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.7),
+      rgba(14, 14, 26, 0.349)
+    ),
+    url(../images/dum2.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -273,30 +276,6 @@ h3 {
   color: rgba(255, 0, 0, 0.596);
 }
 
-/*-----Sub-menu-----*/
-
-.sub-menu {
-  display: none;
-}
-.nav-links ul li:hover .sub-menu {
-  display: block;
-  position: absolute;
-  background: rgba(106, 108, 109, 0.267);
-  margin-top: 15px;
-  margin-left: -15px;
-}
-.nav-links ul li:hover .sub-menu ul {
-  display: block;
-  margin: 10px;
-}
-.nav-links ul li:hover .sub-menu ul li {
-  width: 150px;
-  padding: 10px;
-  border-bottom: 1px dotted #fff;
-  background: transparent;
-  border-radius: 0;
-  text-align: left;
-}
 .nav-links ul li:hover .sub-menu ul li:last-child {
   border-bottom: none;
 }
@@ -307,11 +286,11 @@ h3 {
 /*-------------about us page----------*/
 
 .sub-header {
-  height: 50vh;
+  height: 65vh;
   width: 100%;
   background-image: linear-gradient(
-      rgba(60, 62, 70, 0.685),
-      rgba(60, 62, 70, 0.685)
+      rgba(4, 9, 30, 0.589),
+      rgba(14, 14, 26, 0.349)
     ),
     url(../images/dum2.jpg);
   background-position: center;
@@ -349,4 +328,70 @@ h3 {
 }
 .red-btn:hover {
   color: #fff;
+}
+/*------------Blog--------*/
+.blog-con {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+.blog-left {
+  flex-basis: 65%;
+}
+.blog-left img {
+  width: 100%;
+}
+.blog-left h2 {
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.blog-left p {
+  color: rgb(78, 75, 75);
+  padding: 0;
+}
+.blog-right {
+  flex-basis: 32%;
+}
+.blog-right h3 {
+  background: #188be9;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.blog-right div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.com-box {
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+.comm-box h3 {
+  text-align: left;
+}
+.comm-form input,
+.comm-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+.comm-form button {
+  margin: 10px 0;
+}
+@media (max-width: 700px) {
+  .sub-header h1 {
+    font-size: 24px;
+  }
 }

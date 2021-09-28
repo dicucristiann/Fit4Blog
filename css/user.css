@@ -7,9 +7,9 @@
   width: 100%;
   background-image: linear-gradient(
       rgba(4, 9, 30, 0.589),
-      rgba(4, 9, 30, 0.589)
+      rgba(14, 14, 26, 0.349)
     ),
-    url(dum.jpg);
+    url(../images/dum2.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -41,10 +41,10 @@
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(
-      rgba(26, 26, 31, 0.459),
-      rgba(26, 26, 31, 0.459)
-    ),
-    url(web.jpg);
+    rgba(34, 34, 65, 0.774),
+    rgb(43, 148, 125),
+    rgba(34, 34, 65, 0.774)
+  );
   padding: 55px;
   box-sizing: border-box;
   backface-visibility: hidden;
