@@ -36,9 +36,8 @@
   padding: 60px 40px;
   color: rgb(255, 255, 255);
   margin-bottom: 20px;
-  border-bottom-right-radius: 6px;
+
   border-top-left-radius: 0px;
-  border-bottom-left-radius: 6px;
 }
 .footer-bs .footer-brand,
 .footer-bs .footer-nav,

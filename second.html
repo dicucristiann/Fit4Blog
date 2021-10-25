@@ -35,6 +35,7 @@
               <li>
                 <a href="./index.html">LOGIN</a>
               </li>
+              <li><a href="./SocialMedia/social.html">SOCIAL-MEDIA</a></li>
             </div>
           </ul>
         </div>
@@ -207,10 +208,10 @@
     <script>
       var navLinks = document.getElementById("navLinks");
       function showMenu() {
-        navLinks.style.right = "0";
+        navLinks.classList.toggle('show');
       }
       function hideMenu() {
-        navLinks.style.right = "-200px";
+        navLinks.classList.toggle('show');
       }
     </script>
   </body>

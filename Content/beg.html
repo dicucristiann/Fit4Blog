@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit4blog</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo3.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="second.html">HOME</a>
+            </li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">MEMBERSHIP</a></li>
+            <li><a href="">NEWS</a></li>
+            <li><a href="blog.html">BLOG</a></li> 
+            <li><a href="index.html">LOGIN</a></li>   
+                 
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1><b><i>"Your first steps in changing your LIFESTYLE"</b></i></h1>
+      <h2><b><i>"Dare to be great"</i></b></h2>
+    </section>
+    <!-----------Content----------->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Believe sweat and inspire!</h1>
+          <p>
+            BE CONSISTENT
+Results come through regular and consistent activity. <br> Stick to your program and avoid frequent stops and starts.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col"><img src="images/about.jpg" /></div>
+      </div>
+    </section>
+
+    <!--------Footer------->
+
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, incidunt!
+        Veritatis soluta quos culpa non. <br />
+        Illum omnis tenetur quae molestias incidunt rem placeat soluta ratione
+        delectus consequuntur repellendus, harum quidem.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-reddit"></i>
+      </div>
+      <p>
+        Created by Dicu Cristian for <i class="fa fa-heartbeat"></i>
+        education!
+      </p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
