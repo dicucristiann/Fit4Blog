@@ -1,434 +1,570 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit4blog</title>
+    <link rel="stylesheet" href="./social.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0a61d5ea89.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fit4blog</title>
-  <link rel="stylesheet" href="./social.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
- <script src="https://kit.fontawesome.com/0a61d5ea89.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav>
-    <div class="container">
-      <h2 class="log">Fit4blog</h2>
-      <div class="search-bar">
-        <i class="fa fa-search"></i>
-        <input type="search" placeholder="Search Fit4blog" />
-      </div>
-      <div class="create">
-        <label class="btn btn-primary" for="create-post">Login</label>
-        <div class="profile-photo">
-          <img src="./images/crs.jpg" />
+  <body>
+    <nav>
+      <div class="container">
+        <h2 class="log">Fit4blog</h2>
+        <div class="search-bar">
+          <i class="fa fa-search"></i>
+          <input type="search" placeholder="Search Fit4blog" />
         </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-------///////Main//////////------->
-  <main>
-    <div class="container">
-      <!----left---->
-      <div class="left">
-        <a class="profile">
+        <div class="create">
+          <label class="btn btn-primary" for="create-post">Login</label>
           <div class="profile-photo">
             <img src="./images/crs.jpg" />
           </div>
-          <div class="handle">
-            <h4>Dicu Cristian</h4>
-            <p class="text-muted">@dcristiann</p>
-          </div>
-        </a>
-        <!--------------Sidebar----------->
-        <div class="sidebar">
-          <a class="menu-item active">
-            <span><i class="fa fa-home" aria-hidden="true"></i></span>
-            <h3>Home</h3>
-
-          </a>
-          <a href="../second.html" class="menu-item ">
-            <span><i class="fa fa-compass" aria-hidden="true"></i></span>
-            <h3>Explore</h3>
-
-          </a>
-          <a class="menu-item" id="notifications">
-            <span><i class="fa fa-bell-o" aria-hidden="true"><small class="notification-count">9+</small></i></i></span>
-            <h3>Notification</h3>
-            <!---------Notification-popUP-------->
-            <div class="notifications-popup">
-
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb1.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Larisa Marina</b> accepted your friend request <small class="text-muted">1 HOUR AGO</small>
-                </div>
-              </div>
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb2.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Loredana Hales</b> accepted your friend request <small class="text-muted">1 DAYS AGO</small>
-                </div>
-              </div>
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb3.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Darius Racz</b> accepted your friend request <small class="text-muted">2 DAYS AGO</small>
-                </div>
-              </div>
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb4.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Ariadna Larisa</b> accepted your friend request <small class="text-muted">4 DAYS AGO</small>
-                </div>
-              </div>
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Vlad Cristi</b> accepted your friend request <small class="text-muted">5 DAYS AGO</small>
-                </div>
-              </div>
-              <div>
-                <div class="profile-photo">
-                  <img src="./images/meb5.jpg">
-                </div>
-                <div class="notification-body">
-                  <b>Buicu Mihai</b> accepted your friend request <small class="text-muted">5 DAYS AGO</small>
-                </div>
-              </div>
-            </div>
-          </a>
-          <!---------END-Notification-popUP-------->
-          <a class="menu-item " id="message-notifications">
-            <span><i class="fa fa-envelope-o" aria-hidden="true"><small class="notification-count">6</small></i></span>
-            <h3>Message</h3>
-
-          </a>
-          <a class="menu-item ">
-            <span><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
-            <h3>Bookmarks</h3>
-
-          </a>
-          <a class="menu-item ">
-            <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
-            <h3>Analytics</h3>
-          </a>
-
-          <a class="menu-item ">
-            <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
-            <h3>Theme</h3>
-          </a>
-          <a class="menu-item">
-            <span><i class="fa fa-cog" aria-hidden="true"></i></span>
-            <h3>Settings</h3>
-          </a>
         </div>
-        <!-----end of sidebar------->
-        <label for="create-post" class="btn btn-primary">Create Post</label>
       </div>
-      <!-----end of left---------->
+    </nav>
 
-      <!----middle---->
-      <div class="middle">
-        <!--------story--------->
-        <div class="stories">
-          <div class="story">
+    <!-------///////Main//////////------->
+    <main>
+      <div class="container">
+        <!----left---->
+        <div class="left">
+          <a class="profile">
             <div class="profile-photo">
-              <img src="./images/crs.jpg">
+              <img src="./images/crs.jpg" />
             </div>
-            <p class="name">Story</p>
-          </div>
-          <div class="story">
-            <div class="profile-photo">
-              <img src="./images/meb5.jpg">
+            <div class="handle">
+              <h4>Dicu Cristian</h4>
+              <p class="text-muted">@dcristiann</p>
             </div>
-            <p class="name">Buicu Mihai</p>
-          </div>
-          <div class="story">
-            <div class="profile-photo">
-              <img src="./images/meb4.jpg">
-            </div>
-            <p class="name">Marina Larisa</p>
-          </div>
-          <div class="story">
-            <div class="profile-photo">
-              <img src="./images/meb.jpg">
-            </div>
-            <p class="name">Vlad Cristi</p>
-          </div>
-          <div class="story">
-            <div class="profile-photo">
-              <img src="./images/meb3.jpg">
-            </div>
-            <p class="name">Racz Darius</p>
-          </div>
-          <div class="story">
-            <div class="profile-photo">
-              <img src="./images/meb2.jpg">
-            </div>
-            <p class="name">Loredana Hales</p>
-          </div>
-        </div>
-        <!--------end-story---------->
-        <form class="create-post">
-          <div class="profile-photo">
-            <img src="./images/crs.jpg">
-          </div>
-          <input type="text" placeholder="Are you thinking of something specific, Cristian? " id="create-post">
-          <input type="submit" value="Post" class="btn btn-primary">
-        </form>
-        <!-----===========Feeds==========------->
-        <div class="feeds">
-          <!-----===========Feed1==========------->
-          <div class="feed">
-            <div class="head">
-              <div class="user">
-               <div class="profile-photo">
-                 <img src="./images/meb4.jpg">
-               </div>
-               <div class="ingo">
-                 <h3>Marina Larisa</h3>
-                 <small>Atena <i class="fas fa-map-marker-alt"></i>, 25 MINUTES AGO</small>
-               </div>
-               
+          </a>
+
+          <!--------------Sidebar----------->
+          <div class="sidebar">
+            <a class="menu-item active">
+              <span><i class="fa fa-home" aria-hidden="true"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a href="../second.html" class="menu-item">
+              <span><i class="fa fa-compass" aria-hidden="true"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-item" id="notifications">
+              <span
+                ><i class="fa fa-bell-o" aria-hidden="true"
+                  ><small class="notification-count">9+</small></i
+                ></span
+              >
+              <h3>Notification</h3>
+              <!---------Notification-popUP-------->
+              <div class="notifications-popup">
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/meb1.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Larisa Marina</b> accepted your friend request
+                    <small class="text-muted">1 HOUR AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/meb2.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Loredana Hales</b> accepted your friend request
+                    <small class="text-muted">1 DAYS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/meb3.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Darius Racz</b> accepted your friend request
+                    <small class="text-muted">2 DAYS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/lar2.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Ariadna Larisa</b> accepted your friend request
+                    <small class="text-muted">4 DAYS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/meb.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Vlad Cristi</b> accepted your friend request
+                    <small class="text-muted">5 DAYS AGO</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/meb5.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Buicu Mihai</b> accepted your friend request
+                    <small class="text-muted">5 DAYS AGO</small>
+                  </div>
+                </div>
               </div>
-              <span class="edit"><i class="fa fa-ellipsis-h"></i>
-              </span>
-            </div>
+            </a>
+            <!---------END-Notification-popUP-------->
+            <a class="menu-item" id="message-notifications">
+              <span
+                ><i class="fa fa-envelope-o" aria-hidden="true"
+                  ><small class="notification-count">6</small></i
+                ></span
+              >
+              <h3>Message</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+              <h3>Analytics</h3>
+            </a>
 
-
-
-            <div class="photo">
-              <img src="./images/meb1.jpg">
-            </div>
-
-<div class="action-button">
-  <div class="interaction-buttons">
-<span><i class="fa fa-heartbeat"></i></span>
-<span><i class="fa fa-comments" ></i></span>
-<span><i class="fa fa-share-square"></i></span>
-  </div>
-  <div class="bookmark">
-<span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-  </div>
-</div>
-<div class="liked-by">
-  <span><img src="images/meb.jpg"></span>
-  <span><img src="images/aln.jpg"></span>
-  <span><img src="images/meb2.jpg"></span>
-  <p>Heartbeat by <b>Loredana Hales</b> and <b>11,673 others</b></p>
-</div>
-<div class="caption">
-  
-  <p><b>Larisa Marina</b> A smile is the most beautiful curve on a woman's body <br><i class="fa fa-heart-o" ></i> <span class="harsh-tag">#happy #peaceful #moments</span></p>
-</div>
-<div class="comments text-muted">View all 733 comments</div>
+            <a class="menu-item">
+              <span><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="fa fa-cog" aria-hidden="true"></i></span>
+              <h3>Settings</h3>
+            </a>
           </div>
-           <!-----===========Feed2==========------->
-          <div class="feed">
-            <div class="head">
-              <div class="user">
-               <div class="profile-photo">
-                 <img src="./images/meb5.jpg">
-               </div>
-               <div class="ingo">
-                 <h3>Buicu Mihai</h3>
-                 <small>Mamaia <i class="fas fa-map-marker-alt"></i>, 45 MINUTES AGO</small>
-               </div>
-            
+          <!-----end of sidebar------->
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!-----end of left---------->
+
+        <!----middle---->
+        <div class="middle">
+          <!--------story--------->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/crs.jpg" />
               </div>
-              <span class="edit"><i class="fa fa-ellipsis-h"></i>
-              </span>
+              <p class="name">Story</p>
             </div>
-
-
-
-            <div class="photo">
-              <img src="./images/pic1.jpg">
-            </div>
-
-<div class="action-button">
-  <div class="interaction-buttons">
-<span><i class="fa fa-heartbeat"></i></span>
-<span><i class="fa fa-comments" ></i></span>
-<span><i class="fa fa-share-square"></i></i></span>
-  </div>
-  <div class="bookmark">
-<span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-  </div>
-</div>
-<div class="liked-by">
-  <span><img src="images/meb.jpg"></span>
-  <span><img src="images/meb5.jpg"></span>
-  <span><img src="images/meb2.jpg"></span>
-  <p>Heartbeat by <b>Dicu Cristian</b> and <b>8,673 others</b></p>
-</div>
-<div class="caption">
-  <p><b>Buicu Mihai</b> Let's go out for just "one drink"...THEY SAID... <br> Me next morning <i class="fa fa-smile-o" aria-hidden="true"></i> <span class="harsh-tag">#lifestyle</span> </p>
-</div>
-<div class="comments text-muted">View all 735 comments</div>
-          </div>
-           <!-----===========Feed3==========------->
-          <div class="feed">
-            <div class="head">
-              <div class="user">
-               <div class="profile-photo">
-                 <img src="./images/meb2.jpg">
-               </div>
-               <div class="ingo">
-                 <h3>Loredana Hales</h3>
-                 <small>Malta <i class="fas fa-map-marker-alt"></i>, 2 HOURS AGO</small>
-               </div>
-            
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/meb5.jpg" />
               </div>
-              <span class="edit"><i class="fa fa-ellipsis-h"></i>
-              </span>
+              <p class="name">Buicu Mihai</p>
             </div>
-
-
-
-            <div class="photo">
-              <img src="./images/ring.jpg">
-            </div>
-
-<div class="action-button">
-  <div class="interaction-buttons">
-<span><i class="fa fa-heartbeat"></i></span>
-<span><i class="fa fa-comments" ></i></span>
-<span><i class="fa fa-share-square"></i></i></span>
-  </div>
-  <div class="bookmark">
-<span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-  </div>
-</div>
-<div class="liked-by">
-  <span><img src="images/meb.jpg"></span>
-  <span><img src="images/meb5.jpg"></span>
-  <span><img src="images/meb2.jpg"></span>
-  <p>Heartbeat by <b>Larisa Marina</b> and <b>8,711 others</b></p>
-</div>
-<div class="caption">
-  <p><b>Loredana Hales</b> He asked and She said yes <br><i class="fa fa-heart-o" ></i><i class="fa fa-heart-o" ></i><i class="fa fa-heart-o" ></i> <span class="harsh-tag">#happy #ringl #love</span> </p>
-</div>
-<div class="comments text-muted">View all 1203 comments</div>
-          </div>
-           <!-----===========Feed4==========------->
-          <div class="feed">
-            <div class="head">
-              <div class="user">
-               <div class="profile-photo">
-                 <img src="./images/meb3.jpg">
-               </div>
-               <div class="ingo">
-                 <h3>Racz Darius</h3>
-                 <small>Cluj-Napoca <i class="fas fa-map-marker-alt"></i>, 2 HOURS AGO</small>
-               </div>
-            
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/lar2.jpg" />
               </div>
-              <span class="edit"><i class="fa fa-ellipsis-h"></i>
-              </span>
+              <p class="name">Marina Larisa</p>
             </div>
-
-
-
-            <div class="photo">
-              <img src="./images/train.jpg">
-            </div>
-
-<div class="action-button">
-  <div class="interaction-buttons">
-<span><i class="fa fa-heartbeat"></i></span>
-<span><i class="fa fa-comments" ></i></span>
-<span><i class="fa fa-share-square"></i></i></span>
-  </div>
-  <div class="bookmark">
-<span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-  </div>
-</div>
-<div class="liked-by">
-  <span><img src="images/meb.jpg"></span>
-  <span><img src="images/meb5.jpg"></span>
-  <span><img src="images/meb2.jpg"></span>
-  <p>Heartbeat by <b>Loredana Hales</b> and <b>2,582 others</b></p>
-</div>
-<div class="caption">
-  <p><b>Racz Darius</b> Training like a pro! <span class="harsh-tag">#boxing #tkd #hardtraining</span> </p>
-</div>
-<div class="comments text-muted">View all 156 comments</div>
-          </div>
-           <!-----===========Feed5==========------->
-          <div class="feed">
-            <div class="head">
-              <div class="user">
-               <div class="profile-photo">
-                 <img src="./images/crs2.jpg">
-               </div>
-               <div class="ingo">
-                 <h3>Cristian Dicu</h3>
-                 <small>Cluj Napoca <i class="fas fa-map-marker-alt"></i>, 3 HOURS AGO</small>
-               </div>
-            
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/meb.jpg" />
               </div>
-              <span class="edit"><i class="fa fa-ellipsis-h"></i>
-              </span>
+              <p class="name">Vlad Cristi</p>
             </div>
-
-
-
-            <div class="photo">
-              <img src="./images/crs.jpg">
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/meb3.jpg" />
+              </div>
+              <p class="name">Racz Darius</p>
             </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/meb2.jpg" />
+              </div>
+              <p class="name">Loredana Hales</p>
+            </div>
+          </div>
+          <!--------end-story---------->
+          <form class="create-post">
+            <div class="profile-photo">
+              <img src="./images/crs.jpg" />
+            </div>
+            <input
+              type="text"
+              placeholder="Are you thinking of something specific, Cristian? "
+              id="create-post"
+            />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+          <!-----===========Feeds==========------->
+          <div class="feeds">
+            <!-----===========Feed1==========------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/lar2.jpg" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Marina Larisa</h3>
+                    <small
+                      >Atena <i class="fas fa-map-marker-alt"></i>, 25 MINUTES
+                      AGO</small
+                    >
+                  </div>
+                </div>
+                <span class="edit"><i class="fa fa-ellipsis-h"></i> </span>
+              </div>
 
-<div class="action-button">
-  <div class="interaction-buttons">
-<span><i class="fa fa-heartbeat"></i></span>
-<span><i class="fa fa-comments" ></i></span>
-<span><i class="fa fa-share-square"></i></i></span>
-  </div>
-  <div class="bookmark">
-<span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-  </div>
-</div>
-<div class="liked-by">
-  <span><img src="images/meb.jpg"></span>
-  <span><img src="images/lar2.jpg"></span>
-  <span><img src="images/meb2.jpg"></span>
-  <p>Heartbeat by <b>Marina Larisa</b> and <b>5,433 others</b></p>
-</div>
-<div class="caption">
-  <p><b>Cristian Dicu</b> "All progress takes place outside the comfort zone" <br><i class="fas fa-dumbbell"></i></i> <span class="harsh-tag">#stayfocused #getbig #nevergiveup</span> </p>
-</div>
-<div class="comments text-muted">View all 724 comments</div>
+              <div class="photo">
+                <img src="./images/meb1.jpg" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heartbeat"></i></span>
+                  <span><i class="fa fa-comments"></i></span>
+                  <span><i class="fa fa-share-square"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="images/meb.jpg" /></span>
+                <span><img src="images/aln.jpg" /></span>
+                <span><img src="images/meb2.jpg" /></span>
+                <p>
+                  Heartbeat by <b>Loredana Hales</b> and <b>11,673 others</b>
+                </p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Larisa Marina</b> A smile is the most beautiful curve on a
+                  woman's body <br /><i class="fa fa-heart-o"></i>
+                  <span class="harsh-tag">#happy #peaceful #moments</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 733 comments</div>
+            </div>
+            <!-----===========Feed2==========------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/meb5.jpg" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Buicu Mihai</h3>
+                    <small
+                      >Mamaia <i class="fas fa-map-marker-alt"></i>, 45 MINUTES
+                      AGO</small
+                    >
+                  </div>
+                </div>
+                <span class="edit"><i class="fa fa-ellipsis-h"></i> </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/pic1.jpg" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heartbeat"></i></span>
+                  <span><i class="fa fa-comments"></i></span>
+                  <span><i class="fa fa-share-square"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="images/meb.jpg" /></span>
+                <span><img src="images/meb5.jpg" /></span>
+                <span><img src="images/meb2.jpg" /></span>
+                <p>Heartbeat by <b>Dicu Cristian</b> and <b>8,673 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Buicu Mihai</b> Let's go out for just "one drink"...THEY
+                  SAID... <br />
+                  Me next morning
+                  <i class="fa fa-smile-o" aria-hidden="true"></i>
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 735 comments</div>
+            </div>
+            <!-----===========Feed3==========------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/meb2.jpg" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Loredana Hales</h3>
+                    <small
+                      >Malta <i class="fas fa-map-marker-alt"></i>, 2 HOURS
+                      AGO</small
+                    >
+                  </div>
+                </div>
+                <span class="edit"><i class="fa fa-ellipsis-h"></i> </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/ring.jpg" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heartbeat"></i></span>
+                  <span><i class="fa fa-comments"></i></span>
+                  <span><i class="fa fa-share-square"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="images/meb.jpg" /></span>
+                <span><img src="images/meb5.jpg" /></span>
+                <span><img src="images/meb2.jpg" /></span>
+                <p>Heartbeat by <b>Larisa Marina</b> and <b>8,711 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Loredana Hales</b> He asked and She said yes <br /><i
+                    class="fa fa-heart-o"
+                  ></i
+                  ><i class="fa fa-heart-o"></i><i class="fa fa-heart-o"></i>
+                  <span class="harsh-tag">#happy #ringl #love</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 1203 comments</div>
+            </div>
+            <!-----===========Feed4==========------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/meb3.jpg" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Racz Darius</h3>
+                    <small
+                      >Cluj-Napoca <i class="fas fa-map-marker-alt"></i>, 2
+                      HOURS AGO</small
+                    >
+                  </div>
+                </div>
+                <span class="edit"><i class="fa fa-ellipsis-h"></i> </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/train.jpg" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heartbeat"></i></span>
+                  <span><i class="fa fa-comments"></i></span>
+                  <span><i class="fa fa-share-square"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="images/meb.jpg" /></span>
+                <span><img src="images/meb5.jpg" /></span>
+                <span><img src="images/meb2.jpg" /></span>
+                <p>
+                  Heartbeat by <b>Loredana Hales</b> and <b>2,582 others</b>
+                </p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Racz Darius</b> Training like a pro!
+                  <span class="harsh-tag">#boxing #tkd #hardtraining</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 156 comments</div>
+            </div>
+            <!-----===========Feed5==========------->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/crs2.jpg" />
+                  </div>
+                  <div class="ingo">
+                    <h3>Cristian Dicu</h3>
+                    <small
+                      >Cluj Napoca <i class="fas fa-map-marker-alt"></i>, 3
+                      HOURS AGO</small
+                    >
+                  </div>
+                </div>
+                <span class="edit"><i class="fa fa-ellipsis-h"></i> </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/crs.jpg" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="fa fa-heartbeat"></i></span>
+                  <span><i class="fa fa-comments"></i></span>
+                  <span><i class="fa fa-share-square"></i></span>
+                </div>
+                <div class="bookmark">
+                  <span><i class="fa fa-bookmark" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="images/meb.jpg" /></span>
+                <span><img src="images/lar2.jpg" /></span>
+                <span><img src="images/meb2.jpg" /></span>
+                <p>Heartbeat by <b>Marina Larisa</b> and <b>5,433 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Cristian Dicu</b> "All progress takes place outside the
+                  comfort zone" <br /><i class="fas fa-dumbbell"></i
+                  ><span class="harsh-tag"
+                    >#stayfocused #getbig #nevergiveup</span
+                  >
+                </p>
+              </div>
+              <div class="comments text-muted">View all 724 comments</div>
+            </div>
           </div>
         </div>
-        </div>
-        </div>
-        </div>
-        
-        </div>
-        
- </div>
-          
-          
 
-      <!----right---->
-      <div class="right">
+        <!------End of feeds------>
+
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class="fa fa-pencil-square-o"></i>
+            </div>
+            <!--------Search bar--------->
+            <div class="search-bar">
+              <i class="fa fa-search"></i>
+              <input
+                type="search"
+                placeholder="Search messages"
+                id="message-search"
+              />
+            </div>
+            <!--------Message category--------->
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6>General</h6>
+              <h6 class="message-requests">Requests(5)</h6>
+            </div>
+            <!--------Message --------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="images/faur.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Faur Ionut</h5>
+                <p class="text-muted">Mergem maine la sala?</p>
+              </div>
+            </div>
+
+            <!--------Message --------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="images/meb.jpg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Vlad Cristi</h5>
+                <p class="text-muted">Saptamana asta nu ajung</p>
+              </div>
+            </div>
+            <!--------Message --------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="images/lar2.jpg" />
+              </div>
+              <div class="message-body">
+                <h5>Marina Larisa</h5>
+                <p class="text-muted">
+                  Te astept acasa.Love you
+                  <i class="fas fa-kiss-wink-heart"></i>
+                </p>
+              </div>
+            </div>
+            <!--------Message --------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="images/meb3.jpg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Racz Darius</h5>
+                <p class="text-bold">3 new messages</p>
+              </div>
+            </div>
+            <!--------Message --------->
+            <div class="message">
+              <div class="profile-photo">
+                <img src="images/meb2.jpg" />
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Loredana Hales</h5>
+                <p class="text-muted">Cobor in 10 minute</p>
+              </div>
+            </div>
+          </div>
+          <!-------------End of messages---------->
+
+          <!-------------Friend request---------->
+          <div class="friend-requests">
+            <h4>Requests</h4>
+            <div class="request">
+              <div class="info">
+                <div class="profile-photo">
+                  <img src="./images/sport3.jpg" />
+                </div>
+                <div>
+                  <h5>Alex Coltman</h5>
+                  <p class="text-muted">25 mutual friends</p>
+                  <div class="action">
+                    <button class="btn btn-primary">Accept</button>
+                    <button class="btn">Decline</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
