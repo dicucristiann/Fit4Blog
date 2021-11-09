@@ -180,7 +180,7 @@ const changeBG = () =>{
      Bg1.classList.add('active');
      Bg2.classList.remove('active');
      Bg3.classList.remove('active');
-     windouw.location.reload();
+     windows.location.reload();
  })
 
  Bg2.addEventListener('click', () =>{
