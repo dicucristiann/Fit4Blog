@@ -71,6 +71,7 @@ img {
 .btn-primary {
   background: var(--color-primary);
   color: rgb(255, 255, 255);
+  
 }
 .text-bold {
   font-weight: 500;
@@ -116,6 +117,11 @@ nav .create {
   display: flex;
   align-items: center;
   gap: 2rem;
+  
+}
+nav .create a{
+  color: #fff;
+  text-decoration: none;
 }
 /*=====//////////----Main----/////////==========*/
 main {
@@ -166,6 +172,8 @@ main .container .left .profile {
   margin-left: 2rem;
   position: relative;
 }
+
+
 .left .sidebar i .notification-count {
   background: var(--color-danger);
   color: white;
@@ -180,6 +188,7 @@ main .container .left .profile {
 .left .sidebar h3 {
   margin-left: 1.5rem;
   font-size: 1rem;
+  
 }
 .left .sidebar .active {
   background: var(--color-light);
