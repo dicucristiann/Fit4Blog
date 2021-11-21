@@ -151,7 +151,7 @@ nav {
   transition: 1s;
 }
 
-nav .fa {
+nav .bx {
   display: none;
 }
 @media (max-width: 700px) {
