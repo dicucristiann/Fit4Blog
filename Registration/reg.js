@@ -10,6 +10,5 @@ const toggle =()=> {
     container.classList.toggle("sign-up");
 };
 
-
 signIn.addEventListener("click", toggle);
 signUp.addEventListener("click", toggle);

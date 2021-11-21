@@ -101,7 +101,6 @@ const removeSizeSelector = () =>{
 
 fontSizes.forEach(size =>{
     
-
  size.addEventListener('click',()=>{
     removeSizeSelector();
     let fontSize;
