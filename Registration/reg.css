@@ -30,7 +30,19 @@
     overflow: hidden;
     font-weight: 400;
   }
+  /*-----Provisory home ---*/
+  .provisory {
+    font-family:"Poppins", sans-serif;
+    text-decoration: none;
+    color: #0e0d0d;
+    padding: 0;
+    cursor: pointer;
+    
+  }
   
+  
+ 
+  /*-----END Provisory home ---*/
   .container {
     position: relative;
     min-height: 100vh;
